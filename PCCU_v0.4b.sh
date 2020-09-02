@@ -11,41 +11,13 @@
 #  This Project Was Ported From PCCU For Windows.
 #
 #  Changelog:
-#  v0.1:
-#  - Clean Apt Cache.
-#  - Empty Trash bin.
-#  - Remove old kernel and old config.
-#
-#  v0.2:
-#  - GUI Added.
-#  - Basic Option.
-#  - Added Clean Tmp Folders.
-#  - Added One-click Trigger.
-#  - Added Apt autoremove And autoclean.
-#  - Added Exit Support.
-#
-#  v0.3:
-#  - Added Cleaning Old "Journal" Cache (Source: BleachBit).
-#  - Added Color (based on People From Stack Overflow).
-#  - Added Home Function (for Goto home Implementation).
-#  - Added non case-sensitive for key input.
-#
 #  v0.4:
-#  - Go to PCCU Home Instead of exit After Cleaning.
-#  - Fixing bug that caused error pops up when choices is blank.
-#  - Added Blank Input Alert If No Choices Selected.
-#  - Added Swap Cache Cleaning Option.
-#  - Added Some Color On 'Homescreen'.
-#  - Added Flush DNS.
-#
-#  What Things Will Be Added (0.4):
-#  - Adding More Cache Cleaning Option (Experimental)(
-#    sync;echo $cleaninglevel > /proc/sys/vm/drop_caches
-#      0:None.
-#      1:Clear PageCache (recommended).
-#      2:Clear dentries and inodes.
-#      3:Clear Both (not recommended).
-#  )
+#  + Go to PCCU Home Instead of exit After Cleaning.
+#  + Fixing bug that caused error pops up when choices is blank.
+#  + Added Blank Input Alert If No Choices Selected.
+#  + Added Swap Cache Cleaning Option.
+#  + Added Some Color On 'Homescreen'.
+#  + Added Flush DNS.
 # ==============================
 
 __COLOR_BLACK="\033[0;30m"
